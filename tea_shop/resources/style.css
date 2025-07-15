@@ -1,0 +1,72 @@
+/* Everything */
+* {
+    background-color: #000;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+
+/* Navbar */
+.navbar {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo img {
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+.navbar .main-menu ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    text-decoration: none;
+}
+
+/* Mission */
+.mission {
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;      /* center vertically */
+}
+
+.mission .mission-container {
+    display: flex;
+    align-items: center;
+    background-image: url('/Users/taylorlee/Documents/CodecademyProjects/tea_shop/resources/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+}
+
+.mission .mission-container .mission-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    width: 100%;
+}
+
